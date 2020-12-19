@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+    <ImageView
+        android:id="@+id/morePic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/img1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/moreName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:text="【圣诞礼盒】纪梵希口红迷你5支装组合 304/306 小粉唇01"/>
+        <TextView
+            android:id="@+id/morePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:text="¥150"
+            android:textColor="#FF0000"/>
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="加入购物车"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_add"/>
+    </LinearLayout>
+</LinearLayout>

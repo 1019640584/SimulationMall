@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.MoreActivity"
+    android:id="@+id/swipe_refresh_layout"
+    android:orientation="vertical">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <include
+           android:id="@+id/toolbar_main"
+           layout="@layout/toolbar_main"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/bg_search"
+           android:padding="5dp"
+           android:layout_margin="5dp">
+           <ImageView
+               android:layout_width="36dp"
+               android:layout_height="36dp"
+               android:layout_gravity="center"
+               android:foregroundGravity="center"
+               android:src="@drawable/ic_search"/>
+           <EditText
+               android:id="@+id/edit_search"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="#268AEC"
+               android:textColorHint="#CCCCCC"
+               android:hint="想要搜索的商品"
+               android:background="@null"
+               android:singleLine="true"
+               android:layout_gravity="center"/>
+       </LinearLayout>
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/moreRec"
+           android:layout_width="match_parent"
+           android:layout_margin="10dp"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

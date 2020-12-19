@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="5dp">
+    <ImageView
+        android:id="@+id/comPic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/img1"/>
+    <TextView
+        android:id="@+id/comName"
+        android:layout_width="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="#000000"
+        android:text="【圣诞礼盒】纪梵希口红迷你5支装组合 304/306 小粉唇01"/>
+
+</LinearLayout>

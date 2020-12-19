@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value = "Shop" />
+    <version value = "2"/>
+    <list>
+        <mapping class = "cn.project.simulationmall.bean.User"/>
+        <mapping class = "cn.project.simulationmall.bean.Commodity"/>
+        <mapping class = "cn.project.simulationmall.bean.Cart"/>
+    </list>
+</litepal>

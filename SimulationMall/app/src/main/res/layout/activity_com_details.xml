@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.ComDetailsActivity"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/toolbar_login"
+        layout="@layout/toolbar_main"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/detailsPic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/img1"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/detailsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="【圣诞礼盒】纪梵希口红迷你5支装组合 304/306 小粉唇01"/>
+    <TextView
+        android:id="@+id/detailsDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:text="    纪梵希(Givenchy)是来自法国的高奢时装品牌，优美、简洁、典雅是纪梵希最大特点，纪梵希最初以香水为其主要产品，后开始涉足护肤及彩妆事业。在世界品牌实验室编制的2006年度《世界品牌500强》排行榜中名列第411位。2018年12月，世界品牌实验室发布《2018世界品牌500强》榜单，纪梵希排名第433。"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加入购物车"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_add"/>
+
+</LinearLayout>
